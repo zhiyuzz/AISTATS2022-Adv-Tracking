@@ -1,4 +1,6 @@
-Code for the paper "Adversarial Tracking Control via Strongly Adaptive Online Learning with Memory"
+# Code for the paper "Adversarial Tracking Control via Strongly Adaptive Online Learning with Memory"
+
+Paper available at https://arxiv.org/abs/2102.01623
 
 Python version 3.8
 Requires numpy, matplotlib, scipy
