@@ -2,6 +2,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 from Algorithms.Algorithm_meta_shifted import MetaNormBallShifted
 
+plt.rcParams['text.usetex'] = True
+
 # Experiment setting
 T = 20000
 H = 5
@@ -44,3 +46,5 @@ plt.plot(np.arange(1, T + 1), x_star[1:T+1], '-', label='Target $x^*_t$')
 
 plt.xlabel('t')
 plt.legend(loc='upper left')
+
+plt.savefig("Figures/5d.pdf")

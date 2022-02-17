@@ -2,6 +2,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 from Algorithms.Algorithm1 import OneDim
 
+plt.rcParams['text.usetex'] = True
+
 # Experiment setting
 T = 200
 
@@ -60,3 +62,5 @@ plt.plot(np.arange(1, T + 1), predictions2, '-', label='$x^*=10$, $R=15$')
 plt.xlabel('t')
 plt.ylabel('$x_t$')
 plt.legend()
+
+plt.savefig("Figures/3a.pdf")

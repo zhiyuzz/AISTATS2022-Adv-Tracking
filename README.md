@@ -10,4 +10,4 @@ Instruction: Figure* in the paper is obtained by running the Python file "Figure
 
 The directory "Algorithms" contains the implementation of all the algorithms in the paper.
 
-The directory "Plots" stores the figures in pdf format.
+The directory "Figures" stores the figures in pdf format.

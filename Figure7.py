@@ -2,6 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from Algorithms.Controller import AdvTracking
 
+plt.rcParams['text.usetex'] = True
 
 # Experiment setting
 T = 20000
@@ -74,3 +75,5 @@ plt.axis('equal')
 
 plt.legend()
 plt.legend(loc='upper left')
+
+plt.savefig("Figures/7.pdf")

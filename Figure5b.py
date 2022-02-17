@@ -3,6 +3,8 @@ from matplotlib import pyplot as plt
 from scipy import signal
 from Algorithms.Algorithm_meta_shifted import MetaNormBallShifted
 
+plt.rcParams['text.usetex'] = True
+
 # Experiment setting
 T = 20000
 H = 5
@@ -39,3 +41,5 @@ plt.plot(np.arange(1, T), predictions[1:T], '-', label='Predictions $x_t$')
 plt.plot(np.arange(1, T), x_star[1:T], '-', label='Target $x^*_t$')
 plt.xlabel('t')
 plt.legend(loc='upper left')
+
+plt.savefig("Figures/5b.pdf")
